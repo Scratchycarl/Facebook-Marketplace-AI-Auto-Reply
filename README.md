@@ -80,7 +80,7 @@ pip install playwright python-telegram-bot python-dotenv requests
 Then install Playwright browsers:
 
 ```bash
-playwright install
+playwright install chromium
 ```
 
 ---
