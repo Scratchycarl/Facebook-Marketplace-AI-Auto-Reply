@@ -42,12 +42,11 @@ This repository is intended for **educational and personal use**.
 
 ### Python packages
 
-Installed automatically later:
-
 * `playwright`
 * `python-telegram-bot`
 * `python-dotenv`
 * `requests`
+* `tvdat`
 
 ---
 
@@ -74,7 +73,7 @@ venv\Scripts\activate
 ### 3️⃣ Install dependencies
 
 ```bash
-pip install playwright python-telegram-bot python-dotenv requests
+pip install playwright python-telegram-bot python-dotenv requests tzdata
 ```
 
 Then install Playwright browsers:
