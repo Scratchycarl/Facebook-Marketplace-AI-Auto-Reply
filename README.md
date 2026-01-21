@@ -142,26 +142,18 @@ After login, it saves your session to `fb_cookies.json`.
 File:
 
 ```
-save_cookies.py
+setup_login.py
 ```
-
-(Your filename may differ — adjust commands accordingly.)
-
 ---
 
 ### ▶️ How to generate cookies
 
 1️⃣ Make sure Playwright is installed:
 
-```bash
-pip install playwright
-playwright install
-```
-
 2️⃣ Run the cookie script:
 
 ```bash
-python save_cookies.py
+python setup_login.py
 ```
 
 3️⃣ A **real Chrome window** will open.
@@ -220,28 +212,9 @@ Regenerate cookies if:
 Just rerun:
 
 ```bash
-python save_cookies.py
+python etup_login.py
 ```
 
----
-
-### 🧠 Why this approach is used
-
-* Avoids storing passwords
-* Uses official Chrome login flow
-* Compatible with 2FA
-* Stable across restarts
-* Required for Messenger automation
-
----
-
-### ❗ Common mistakes
-
-* ❌ Running the script headless
-* ❌ Closing Chrome before cookies save
-* ❌ Forgetting to log in fully
-* ❌ Uploading `fb_cookies.json` to GitHub
-  
 ---
 
 ## 🧠 How Memory Works
