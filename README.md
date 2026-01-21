@@ -127,13 +127,6 @@ Paste values into `.env`.
 
 ---
 
-Perfect — that script is **exactly what you want**, and it fits very cleanly into the setup.
-Below is a **drop-in section** you can add to your `README.md` that explains **how to generate cookies safely using your script**, plus a few small best-practice notes.
-
-You can paste this **as-is** into the README.
-
----
-
 ## 🍪 Generating Facebook Session Cookies (Built-in Script)
 
 This project includes a helper script to **safely generate Facebook session cookies** using Playwright.
