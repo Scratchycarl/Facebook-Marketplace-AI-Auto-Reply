@@ -304,40 +304,6 @@ If you accidentally committed cookies:
 
 ---
 
-## 🛠 Common Issues
-
-### Bot replies to itself
-
-✔ Fixed by:
-
-* strict bottom-message detection
-* sender role tracking
-* persistent message hashes
-
-### Bot forgets context
-
-✔ Fixed by:
-
-* SQLite persistent memory
-* DB-based history reconstruction
-
-### Buyer sends multiple messages quickly
-
-✔ Fixed by:
-
-* debounce batching (3s quiet window)
-
----
-
-## 🔒 Security Notes
-
-* Never commit `.env`
-* Never commit `fb_cookies.json`
-* Treat leaked cookies as compromised
-* Prefer private repos
-
----
-
 ## 📌 Customization
 
 You can tweak:
@@ -346,14 +312,3 @@ You can tweak:
 * `MAX_BATCH_MESSAGES`
 * AI model name
 * Product context (price, location, availability)
-
-All in `messenger_bot_v3.py`.
-
----
-
-## 🧠 Final Notes
-
-This is a **powerful automation tool**.
-Use responsibly, monitor regularly, and keep backups of your `.env` and cookies locally.
-
----
