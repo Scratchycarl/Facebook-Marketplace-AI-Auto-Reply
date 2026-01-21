@@ -3,7 +3,8 @@
 
 # --- Local databases ---
 *.db
-bot_memory.json
+fb_cookies.json
+
 
 # --- Python cache ---
 __pycache__/
