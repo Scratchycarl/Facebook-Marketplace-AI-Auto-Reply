@@ -3,6 +3,7 @@
 
 # --- Local databases ---
 *.db
+bot_memory.json
 
 # --- Python cache ---
 __pycache__/
